@@ -3,7 +3,7 @@ import java.io.*;
 
 public class files{
     public static void main (String args[]){
-    File f1 = new File("alan.txt");
+    File f1 = new File("letter.txt");
     Scanner sc = new Scanner(System.in);
     try{
         FileOutputStream fos = new FileOutputStream(f1);
